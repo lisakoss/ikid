@@ -14,6 +14,7 @@
 		425F3AF62027FF4C0063A2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425F3AF42027FF4C0063A2EE /* LaunchScreen.storyboard */; };
 		425F3B012027FF4C0063A2EE /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F3B002027FF4C0063A2EE /* ikidTests.swift */; };
 		425F3B0C2027FF4C0063A2EE /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F3B0B2027FF4C0063A2EE /* ikidUITests.swift */; };
+		425F3B2220280DC10063A2EE /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F3B2120280DC10063A2EE /* GoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		425F3B072027FF4C0063A2EE /* ikidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		425F3B0B2027FF4C0063A2EE /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		425F3B0D2027FF4C0063A2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425F3B2120280DC10063A2EE /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				425F3AF22027FF4C0063A2EE /* Assets.xcassets */,
 				425F3AF42027FF4C0063A2EE /* LaunchScreen.storyboard */,
 				425F3AF72027FF4C0063A2EE /* Info.plist */,
+				425F3B2120280DC10063A2EE /* GoodViewController.swift */,
 			);
 			path = ikid;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				425F3AEE2027FF4C0063A2EE /* ViewController.swift in Sources */,
+				425F3B2220280DC10063A2EE /* GoodViewController.swift in Sources */,
 				425F3AEC2027FF4C0063A2EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LP484FJCE;
 				INFOPLIST_FILE = ikid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.washington.lisakoss.ikid;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LP484FJCE;
 				INFOPLIST_FILE = ikid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.washington.lisakoss.ikid;
