@@ -15,6 +15,8 @@
 		425F3B012027FF4C0063A2EE /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F3B002027FF4C0063A2EE /* ikidTests.swift */; };
 		425F3B0C2027FF4C0063A2EE /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F3B0B2027FF4C0063A2EE /* ikidUITests.swift */; };
 		425F3B2220280DC10063A2EE /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F3B2120280DC10063A2EE /* GoodViewController.swift */; };
+		42C65667202851E0000D2D1C /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C65666202851E0000D2D1C /* PunViewController.swift */; };
+		42C65669202857A0000D2D1C /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C65668202857A0000D2D1C /* DadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		425F3B0B2027FF4C0063A2EE /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		425F3B0D2027FF4C0063A2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425F3B2120280DC10063A2EE /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		42C65666202851E0000D2D1C /* PunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
+		42C65668202857A0000D2D1C /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				425F3AEB2027FF4C0063A2EE /* AppDelegate.swift */,
 				425F3AED2027FF4C0063A2EE /* ViewController.swift */,
 				425F3AEF2027FF4C0063A2EE /* Main.storyboard */,
+				42C65666202851E0000D2D1C /* PunViewController.swift */,
+				42C65668202857A0000D2D1C /* DadViewController.swift */,
 				425F3AF22027FF4C0063A2EE /* Assets.xcassets */,
 				425F3AF42027FF4C0063A2EE /* LaunchScreen.storyboard */,
 				425F3AF72027FF4C0063A2EE /* Info.plist */,
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C65667202851E0000D2D1C /* PunViewController.swift in Sources */,
 				425F3AEE2027FF4C0063A2EE /* ViewController.swift in Sources */,
 				425F3B2220280DC10063A2EE /* GoodViewController.swift in Sources */,
 				425F3AEC2027FF4C0063A2EE /* AppDelegate.swift in Sources */,
+				42C65669202857A0000D2D1C /* DadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
